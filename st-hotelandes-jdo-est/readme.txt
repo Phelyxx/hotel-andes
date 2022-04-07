@@ -1,0 +1,1 @@
+Instalación: Ejecutar InterfazHotelAndesApp.java 

@@ -1,0 +1,134 @@
+{
+	"title": "Aplicación transaccional de HotelAndes",
+	"frameH": 600,
+	"frameW": 800,
+	"bannerPath": "./src/main/resources/config/logo.png",
+	"menuBar":
+	[
+		{ "menuTitle": "Cliente",
+			"options":
+			  [
+				  {
+					  "label": "Registrar una reserva de alojamiento",
+					  "event": "registrarReserva"
+				  },
+				  {
+					  "label": "Registrar la llegada de un cliente al hotel",
+					  "event": "checkIn"
+				  },
+				  {
+					  "label": "Registrar la salida de un cliente",
+					  "event": "checkOut"
+				  }
+			  ]
+		  },
+		{ "menuTitle": "Servicio",
+		  "options":
+			[
+				{
+					"label": "Registrar una reserva de un servicio del hotel por parte de un cliente",
+					"event": "adicionarReserva"
+				},
+				{
+					"label": "Registrar un consumo de un servicio del hotel",
+					"event": "adicionarConsumo"
+				}
+			]
+		},
+		{ "menuTitle": "Habitación",
+		  "options":
+			[
+				{
+					"label": "Mostrar el índice de ocupación",
+					"event": "darIndiceOcupacion"
+				}
+			]
+		},
+		{ "menuTitle": "Usuario",
+			"options":
+			  [
+				  {
+					  "label": "Iniciar sesión",
+					  "event": "iniciarSesion"
+				  },
+				  {
+					  "label": "Cerrar sesión",
+					  "event": "cerrarSesion"
+				  },
+				  {
+					  "label": "Limpiar log de parranderos",
+					  "event": "limpiarLogParranderos"
+				  },
+				  {
+					  "label": "Limpiar log de datanucleus",
+					  "event": "limpiarLogDatanucleus"
+				  },
+				  {
+					  "label": "Limpiar Base de Datos",
+					  "event": "limpiarBD"
+				  }
+			  ]
+		  },	
+		  { "menuTitle": "Estadisticas",
+			"options":
+			  [
+				  {
+					  "label": "Mostrar el dinero recolectado por servicios en cada habitación durante un periodo de tiempo y en el año corrido",
+					  "event": "consultarDineroHabitaciones"
+				  },
+				  {
+					  "label": "Mostrar los 20 servicios más populares",
+					  "event": "darServiciosPopulares"
+				  },
+				  {
+					  "label": "Mostrar el índice de ocupación de cada una de las habitaciones del hotel",
+					  "event": "darIndiceOcupacion"
+				  },
+				  {
+					  "label": "Mostrar los servicios que cumplen con cierta característica",
+					  "event": "darServiciosCaracteristica"
+				  },
+				  {
+					  "label": "Mostrar el consumo en hotelandes por un usuario dado, en un rango de fechas indicado.",
+					  "event": "darConsumoUsuario"
+				  }
+			  ]
+		  },		
+		{ "menuTitle": "Documentación",
+		  "options":
+			[
+				{
+					"label": "Presentación general",
+					"event": "mostrarPresentacionGeneral"
+				},
+				{
+					"label": "Modelo conceptual",
+					"event": "mostrarModeloConceptual"
+				},
+				{
+					"label": "Esquema de la BD",
+					"event": "mostrarEsquemaBD"
+				},
+				{
+					"label": "Script creación de la BD",
+					"event": "mostrarScriptBD"
+				},
+				{
+					"label": "Arquitectura de referencia",
+					"event": "mostrarArqRef"
+				}
+			]
+		},		
+		{ "menuTitle": "Acerca de ...",
+		  "options":
+			[
+				{
+					"label": "Acerca de ...",
+					"event": "acercaDe"
+				}
+			]
+		}		
+		
+	]
+}
+	
