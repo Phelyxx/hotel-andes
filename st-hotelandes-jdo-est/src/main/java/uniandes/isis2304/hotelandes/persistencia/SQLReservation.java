@@ -18,7 +18,6 @@ import javax.jdo.PersistenceManager;
 import javax.jdo.Query;
 
 import uniandes.isis2304.hotelandes.negocio.Reservation;
-import uniandes.isis2304.hotelandes.negocio.ServiceInvoice;
 
 /**
  * Clase que encapsula los métodos que hacen acceso a la base de datos para el concepto RESERVATION de HotelAndes

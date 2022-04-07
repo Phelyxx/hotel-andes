@@ -1,10 +1,5 @@
 package uniandes.isis2304.hotelandes.persistencia;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
-
 import javax.jdo.PersistenceManager;
 import javax.jdo.Query;
 

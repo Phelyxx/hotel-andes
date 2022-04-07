@@ -15,7 +15,6 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import java.io.FileReader;
-import java.util.List;
 import javax.swing.JOptionPane;
 import org.apache.log4j.Logger;
 import org.junit.Test;
