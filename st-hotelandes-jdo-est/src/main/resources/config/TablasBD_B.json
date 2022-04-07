@@ -1,0 +1,25 @@
+{
+	"title": "Nombres de las tablas de HotelAndes para la aplicación B",
+	"unidadPersistencia": "HotelAndes",
+	"tablas":
+	[
+		"Hotelandes_sequence",
+		"B_AMENITY",
+		"B_AVAILABLEDATE",
+		"B_BOOKING",
+		"B_CHECKINOUT",
+		"B_FOODPRODUCT",
+		"B_HOTEL",
+		"B_INCLUDEDFOOD",
+		"B_INCLUDEDSERVICES",
+		"B_OCCUPANCYDATE",
+		"B_OFFERS",
+		"B_RESERVATION",
+		"B_RESTAURANT",
+		"B_ROOM",
+		"B_ROOMTYPE",
+		"B_SERVICE",
+		"B_SERVICEINVOICE",
+		"B_USER"
+	]
+}

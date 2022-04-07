@@ -1,0 +1,38 @@
+/**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ * Universidad	de	los	Andes	(Bogotá	- Colombia)
+ * Departamento	de	Ingeniería	de	Sistemas	y	Computación
+ * Licenciado	bajo	el	esquema	Academic Free License versión 2.1
+ * 		
+ * Curso: isis2304 - Sistemas Transaccionales
+ * Proyecto: HotelAndes 
+ * @version 1.0
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ */
+
+package uniandes.isis2304.hotelandes.negocio;
+
+import java.sql.Timestamp;
+
+/**
+ * Interfaz para los métodos get de USER.
+ * Sirve para proteger la información del negocio de posibles manipulaciones desde la interfaz 
+ * 
+ */
+public interface VOUser
+{	
+    public long getDocument();
+
+    public String getPassword();
+
+    public String getDocumentType(); 
+
+    public String getName(); 
+
+    public Timestamp getBornDate(); 
+
+    public String getRole(); 
+
+	@Override
+	public String toString();
+
+}

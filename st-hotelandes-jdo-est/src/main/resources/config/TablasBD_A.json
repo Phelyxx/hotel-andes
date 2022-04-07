@@ -1,0 +1,25 @@
+{
+	"title": "Nombres de las tablas de HotelAndes para la aplicación A",
+	"unidadPersistencia": "hotelandes",
+	"tablas":
+	[
+		"Hotelandes_sequence",
+		"A_AMENITY",
+		"A_AVAILABLEDATE",
+		"A_BOOKING",
+		"A_CHECKINOUT",
+		"A_FOODPRODUCT",
+		"A_HOTEL",
+		"A_INCLUDEDFOOD",
+		"A_INCLUDEDSERVICES",
+		"A_OCCUPANCYDATE",
+		"A_OFFERS",
+		"A_RESERVATION",
+		"A_RESTAURANT",
+		"A_ROOM",
+		"A_ROOMTYPE",
+		"A_SERVICE",
+		"A_SERVICEINVOICE",
+		"A_USER"
+	]
+}

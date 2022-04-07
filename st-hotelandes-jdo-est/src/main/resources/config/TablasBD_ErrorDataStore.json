@@ -1,0 +1,25 @@
+{
+	"title": "Nombres de las tablas de HotelAndes para pruebas de la aplicación cuando la base de datos no existe o está caida",
+	"unidadPersistencia": "HotelAndesErrorDS",
+	"tablas":
+	[
+		"HotelAndes_sequence",
+		"X_AMENITY",
+		"X_AVAILABLEDATE",
+		"X_BOOKING",
+		"X_CHECKINOUT",
+		"X_FOODPRODUCT",
+		"X_HOTEL",
+		"X_INCLUDEDFOOD",
+		"X_INCLUDEDSERVICES",
+		"X_OCCUPANCYDATE",
+		"X_OFFERS",
+		"X_RESERVATION",
+		"X_RESTAURANT",
+		"X_ROOM",
+		"X_ROOMTYPE",
+		"X_SERVICE",
+		"X_SERVICEINVOICE",
+		"X_USER"
+	]
+}
