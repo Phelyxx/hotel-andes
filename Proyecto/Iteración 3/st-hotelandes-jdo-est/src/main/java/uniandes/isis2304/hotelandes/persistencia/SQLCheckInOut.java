@@ -51,7 +51,7 @@ class SQLCheckInOut
 	public long checkOut (PersistenceManager pm, long idBooking, String today) 
 	{
 		String sql = "UPDATE " + pp.darTablaCheckInOut() + " SET CHECKOUTDATE = ";
-		sql+= "TO_TIMESTAMP('"+today+"', 'yyyy/mm/dd HH24:MI:SS.FF'), CHECKOUTMADE = 1, PAID = 1";
+		sql+= "TO_TIMESTAMP('"+today+"', 'yyyy/mm/dd HH24:MI:SS.FF'), CHECKOUTMADE = 1";
 		sql+= " WHERE IDBOOKING = "+idBooking;
         Query q = pm.newQuery(SQL, sql);
         return (long) q.executeUnique();

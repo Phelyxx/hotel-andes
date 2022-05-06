@@ -1,0 +1,91 @@
+13:28:10,184 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+13:28:10,185 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se aplica configuración indicada en el archivo de configuración
+13:28:10,201 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+13:29:06,828 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Probando el acceso a la base de datos con datos de usuario correctos, pero sin crear el esquema
+13:29:06,871 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+13:29:07,018 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Prueba de tabla inexistente incompleta. No se pudo conectar a la base de datos !!. La excepción generada es: javax.jdo.JDOFatalUserException
+13:29:07,018 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - La causa es: javax.jdo.JDOUserException: PersistenceManagerFactory has been specified to use "persistence-unit" with name "HotelAndes" but none was found with that name
+13:29:07,034 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Probando el acceso a la base de datos con una base de datos que no existe
+13:29:07,035 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+13:29:49,337 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+13:29:49,337 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - La causa es: javax.jdo.JDOFatalDataStoreException: IO Error: The Network Adapter could not establish the connection
+NestedThrowables:
+java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+13:29:49,337 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Probando el acceso a la base de datos con datos de usuario incorrectos
+13:29:49,338 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+13:29:49,352 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Prueba realizada exitosamente. La excepción generada es: javax.jdo.JDOFatalUserException
+13:29:49,352 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - La causa es: javax.jdo.JDOUserException: PersistenceManagerFactory has been specified to use "persistence-unit" with name "HotelAndesErrorUser" but none was found with that name
+13:29:49,352 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Probando el acceso a la base de datos con datos válidos (BD, credenciales, esquema
+13:29:49,353 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Se encontró un archivo de configuración de tablas válido
+13:29:49,828 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Conexión realizada correstamente
+13:29:49,828 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Cerrando la conexión
+13:29:49,835 (main) INFO  [uniandes.isis2304.hotelandes.negocio.ConexionTest] - Conexión cerrada
+15:04:43,417 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:04:43,418 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:04:43,440 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:05:04,942 (main) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Iniciando sesión
+15:05:05,025 (main) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Iniciando sesión: CLIENT existentes
+15:11:54,345 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:11:54,345 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:11:54,360 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:12:24,672 (main) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Iniciando sesión
+15:12:24,716 (main) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Iniciando sesión: CLIENT existentes
+15:12:57,903 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando disponibilidad
+15:13:10,902 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Registrando booking: 1
+15:13:11,054 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Booking realizado: Booking [idRoom=1numberOfAdults=2, numberOfChildren=6paymentPlan=Pago, type=LONGSTAY]
+15:14:34,214 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Iniciando sesión
+15:14:34,225 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Iniciando sesión: RECEPTIONIST existentes
+15:14:43,318 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Registrando check in: 101
+15:15:26,066 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Registrando check out: 101
+15:15:26,093 (AWT-EventQueue-0) ERROR [uniandes.isis2304.hotelandes.persistencia.PersistenciaHotelAndes] - Exception : Error executing SQL query "UPDATE A_CHECKINOUT SET CHECKOUTDATE = TO_TIMESTAMP('2022-04-07 15:15:26.066', 'yyyy/mm/dd HH24:MI:SS.FF'), CHECKOUTMADE = 1, PAID = 1 WHERE IDBOOKING = 101".
+ORA-00904: "PAID": invalid identifier
+
+15:15:26,098 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Check out realizado: -1
+15:16:03,822 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Registrando check out: 101
+15:16:03,840 (AWT-EventQueue-0) ERROR [uniandes.isis2304.hotelandes.persistencia.PersistenciaHotelAndes] - Exception : Error executing SQL query "UPDATE A_CHECKINOUT SET CHECKOUTDATE = TO_TIMESTAMP('2022-04-07 15:16:03.822', 'yyyy/mm/dd HH24:MI:SS.FF'), CHECKOUTMADE = 1, PAID = 1 WHERE IDBOOKING = 101".
+ORA-00904: "PAID": invalid identifier
+
+15:16:03,845 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Check out realizado: -1
+15:18:00,392 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:18:00,392 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:18:00,407 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:18:05,868 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:18:05,868 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:18:05,883 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:18:14,949 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+15:18:14,949 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se aplica configuración indicada en el archivo de configuración
+15:18:14,965 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
+15:19:05,163 (main) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Iniciando sesión
+15:19:05,213 (main) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Iniciando sesión: EMPLOYEE existentes
+15:19:55,239 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Adicionando consumo: 3
+15:19:55,473 (AWT-EventQueue-0) ERROR [uniandes.isis2304.hotelandes.persistencia.PersistenciaHotelAndes] - Exception : Error executing SQL query "INSERT INTO A_CONSUMEDSERVICES(idBooking, idServiceInvoice) values (?, ?)".
+ORA-02291: integrity constraint (ISIS2304C17202210.FK_I_SERVICEINVOICE) violated - parent key not found
+
+15:19:55,503 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Adicionando consumo: null
+15:20:44,465 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando dinero
+15:20:44,547 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando dinero
+15:20:59,021 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Servicios Populares
+15:20:59,094 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Servicios Populares: 1 existentes
+15:20:59,094 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Servicios Populares
+15:20:59,118 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Servicios Populares: 1 existentes
+15:21:09,885 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Indice Ocupacion
+15:21:09,966 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Indice Ocupacion: 4 existentes
+15:21:09,967 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Indice Ocupacion
+15:21:10,012 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Indice Ocupacion: 4 existentes
+15:21:44,950 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Servicios Caracteristica
+15:21:45,079 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario: 3 existentes
+15:22:47,094 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario
+15:22:47,108 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario: 1 existentes
+15:22:47,108 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario
+15:22:47,118 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario: 1 existentes
+15:23:06,890 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario
+15:23:06,920 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario: 1 existentes
+15:23:06,921 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario
+15:23:06,974 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario: 1 existentes
+15:23:37,927 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario
+15:23:37,987 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario: 1 existentes
+15:23:37,988 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario
+15:23:38,013 (AWT-EventQueue-0) INFO  [uniandes.isis2304.hotelandes.negocio.HotelAndes] - Consultando Consumo Usuario: 1 existentes
+18:23:14,884 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Interfaz
+18:23:14,885 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se aplica configuración indicada en el archivo de configuración
+18:23:14,911 (main) INFO  [uniandes.isis2304.hotelandes.interfazApp.InterfazHotelAndesApp] - Se encontró un archivo de configuración válido: Tablas BD
